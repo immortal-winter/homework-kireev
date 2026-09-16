@@ -1,0 +1,345 @@
+body {
+    background-color: #121218;
+    color: #e0e0e6;
+}
+
+a {
+    color: #e0e0e6;
+}
+
+header.site-header {
+    background-color: #1a1a26;
+    border-bottom-color: #2a2a3a;
+}
+
+header.site-header .header-inner .main-nav ul li a {
+    color: #b0b0c8;
+}
+
+header.site-header .header-inner .main-nav ul li a:hover,
+header.site-header .header-inner .main-nav ul li a.active {
+    color: #bb86fc;
+}
+
+.hero-overlay {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.4) 60%, transparent 100%);
+}
+
+.section-title,
+.page-main-title {
+    color: #e8e8f0;
+}
+
+
+/* --- Services --- */
+
+.services-section {
+    background: #121218;
+}
+
+.services-section .service-card {
+    background: #1e1e2e;
+    border-color: #2a2a3e;
+}
+
+.services-section .service-card:hover {
+    border-color: #bb86fc;
+    box-shadow: 0 5px 20px rgba(187, 134, 252, 0.15);
+}
+
+.services-section .service-card .card-body h3 {
+    color: #e0e0e6;
+}
+
+
+/* --- Кнопки --- */
+
+.btn-purple {
+    background-color: #bb86fc;
+    color: #121218;
+}
+
+.btn-purple:hover {
+    background-color: #a06ae0;
+    box-shadow: 0 4px 15px rgba(187, 134, 252, 0.35);
+}
+
+.btn-outline-purple {
+    border-color: #bb86fc;
+    color: #bb86fc;
+}
+
+.btn-outline-purple:hover {
+    background-color: #bb86fc;
+    color: #121218;
+}
+
+.btn-large-purple {
+    background-color: #bb86fc;
+    color: #121218;
+}
+
+.btn-large-purple:hover {
+    background-color: #a06ae0;
+    box-shadow: 0 10px 25px rgba(187, 134, 252, 0.4);
+}
+
+
+/* --- About --- */
+
+.about-section {
+    background: #16161f;
+}
+
+.about-section .about-content {
+    background: #1e1e2e;
+    border-color: #2a2a3e;
+}
+
+.about-section .about-content .about-text p {
+    color: #b8b8cc;
+}
+
+
+/* --- Works --- */
+
+.works-section .works-grid .work-item img {
+    border-color: #2a2a3e;
+}
+
+.works-section .works-grid .work-item figcaption {
+    color: #b0b0c8;
+}
+
+
+/* --- Team --- */
+
+.team-section {
+    background: #16161f;
+}
+
+.team-section .team-grid .team-card {
+    background: #1e1e2e;
+    border-color: #2a2a3e;
+}
+
+.team-section .team-grid .team-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.team-section .team-grid .team-card h3 {
+    color: #e0e0e6;
+}
+
+.team-section .team-grid .team-card .team-role {
+    color: #bb86fc;
+}
+
+.team-section .team-grid .team-card .team-desc {
+    color: #9090a8;
+}
+
+.team-section .team-grid .team-card .team-social .social-icon {
+    background: #2a2a3e;
+    color: #b0b0c8;
+}
+
+.team-section .team-grid .team-card .team-social .social-icon:hover {
+    background: #bb86fc;
+    color: #121218;
+}
+
+
+/* --- Reviews --- */
+
+.reviews-section {
+    background: #16161f;
+}
+
+.reviews-section .section-subtitle {
+    color: #8888a0;
+}
+
+.review-card {
+    background: #1e1e2e;
+    border-color: #2a2a3e;
+}
+
+.review-card:hover {
+    border-color: #bb86fc;
+    box-shadow: 0 15px 35px rgba(187, 134, 252, 0.12);
+}
+
+.review-header {
+    border-bottom-color: #2a2a3e;
+}
+
+.review-name {
+    color: #e0e0e6;
+}
+
+.review-text {
+    color: #b0b0c8;
+}
+
+footer.site-footer {
+    background-color: #1a1a26;
+    border-top-color: #2a2a3a;
+}
+
+footer.site-footer .footer-grid .footer-col p {
+    color: #9090a8;
+}
+
+footer.site-footer .footer-grid .footer-col ul li a {
+    color: #9090a8;
+}
+
+footer.site-footer .footer-grid .footer-col ul li a:hover {
+    color: #bb86fc;
+}
+
+
+/* --- Breadcrumbs --- */
+
+.breadcrumbs,
+.breadcrumbs a {
+    color: #8888a0;
+}
+
+.breadcrumbs a:hover {
+    color: #bb86fc;
+}
+
+.form-title,
+.info-title {
+    color: #e8e8f0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: #1e1e2e;
+    border-color: #2a2a3e;
+    color: #e0e0e6;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #bb86fc;
+    box-shadow: 0 0 0 4px rgba(187, 134, 252, 0.15);
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #606078;
+}
+
+.contacts-info-block {
+    border-top-color: #2a2a3e;
+}
+
+.contacts-info-block p {
+    color: #b0b0c8;
+}
+
+.contacts-info-block p strong {
+    color: #e0e0e6;
+}
+
+
+/* --- Sale page --- */
+
+.sale-content-card {
+    background: #1e1e2e;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+.sale-content-card h1 {
+    color: #e8e8f0;
+}
+
+.sale-content-card h1 span {
+    color: #bb86fc;
+}
+
+.sale-content-card p {
+    color: #b0b0c8;
+}
+
+.sale-hero-reviews {
+    border-top-color: #2a2a3e;
+}
+
+.sale-promo-card {
+    background: rgba(30, 30, 46, 0.95);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.sale-promo-card .promo-icon {
+    color: #bb86fc;
+}
+
+.sale-promo-card .promo-text h4 {
+    color: #e0e0e6;
+}
+
+.sale-promo-card .promo-text p {
+    color: #9090a8;
+}
+
+.about-page {
+    background: #121218;
+}
+
+.about-text-block {
+    color: #b8b8cc;
+}
+
+.principle-card {
+    background: #1e1e2e;
+    border-color: #2a2a3e;
+}
+
+.principle-card:hover {
+    border-color: #bb86fc;
+    box-shadow: 0 8px 25px rgba(187, 134, 252, 0.1);
+}
+
+.principle-card h3 {
+    color: #e0e0e6;
+}
+
+.principle-card p {
+    color: #9090a8;
+}
+
+.works-page {
+    background: #16161f;
+}
+
+.work-pair {
+    background: #1e1e2e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.work-caption {
+    color: #8888a0;
+}
+
+.theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e8e8f0;
+    font-size: 1.3rem;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.theme-toggle:hover {
+    background: #d0d0e0;
+    transform: scale(1.1);
+}
