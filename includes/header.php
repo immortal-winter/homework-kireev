@@ -1,20 +1,9 @@
 <?php
-$hour = 21;
+$hour  = 21;
 $theme = ($hour >= 8 && $hour < 20) ? 'day' : 'night';
 
-$pageTitle = $pageTitle ?? 'Шерсть аристократа — Премиальный груминг-салон';
-$basePath  = $basePath  ?? '';   
-$active    = $active    ?? 'index';
-
-$nav = [
-    'index'        => 'Главная',
-    'works'        => 'Наши работы',
-    'services'     => 'Услуги',
-    'about'        => 'О нас',
-    'reviews'      => 'Отзывы',
-    'registration' => 'Контакты',
-];
-$prefix = ($basePath === '') ? 'pages/' : '';   // из корня — pages/..., из /pages — просто файл
+$pageTitle = $pageTitle ?? 'Шерсть аристократа';
+$basePath  = $basePath ?? '';
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -38,12 +27,12 @@ $prefix = ($basePath === '') ? 'pages/' : '';   // из корня — pages/...
         </div>
         <nav class="main-nav">
             <ul>
-                <?php foreach ($nav as $key => $label): ?>
-                    <li>
-                        <a href="<?= $key === 'index' ? $basePath . 'index.php' : $prefix . $key . '.php' ?>"
-                           class="<?= $active === $key ? 'active' : '' ?>"><?= $label ?></a>
-                    </li>
-                <?php endforeach; ?>
+                <li><a href="<?= $basePath ?>index.php">Главная</a></li>
+                <li><a href="<?= $basePath ?>pages/works.php">Наши работы</a></li>
+                <li><a href="<?= $basePath ?>pages/services.php">Услуги</a></li>
+                <li><a href="<?= $basePath ?>pages/about.php">О нас</a></li>
+                <li><a href="<?= $basePath ?>pages/reviews.php">Отзывы</a></li>
+                <li><a href="<?= $basePath ?>pages/registration.php">Контакты</a></li>
             </ul>
         </nav>
     </div>

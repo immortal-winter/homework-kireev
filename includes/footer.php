@@ -1,8 +1,3 @@
-<?php
-$hour = 21;
-$theme = ($hour >= 8 && $hour < 20) ? 'day' : 'night';
-?>
-
 <footer class="site-footer">
     <div class="container">
         <div class="footer-grid">
@@ -13,11 +8,12 @@ $theme = ($hour >= 8 && $hour < 20) ? 'day' : 'night';
             </div>
             <div class="footer-col">
                 <ul>
-                    <?php foreach ($nav as $key => $label): ?>
-                        <li>
-                            <a href="<?= $key === 'index' ? $basePath . 'index.php' : $prefix . $key . '.php' ?>"><?= $label ?></a>
-                        </li>
-                    <?php endforeach; ?>
+                    <li><a href="/index.php">Главная</a></li>
+                    <li><a href="/pages/about.php">О нас</a></li>
+                    <li><a href="/pages/services.php">Услуги</a></li>
+                    <li><a href="/pages/works.php">Наши работы</a></li>
+                    <li><a href="/pages/registration.php">Контакты</a></li>
+                    <li><a href="/pages/reviews.php">Отзывы</a></li>
                 </ul>
             </div>
             <div class="footer-col">
